@@ -1,0 +1,17 @@
+@startuml Scrum.io
+
+left to right direction
+actor "Student" as admin
+
+package "Scrum.io" {
+  usecase "Create Backlog" as UC1
+  usecase "Search Backlog" as UC2
+  usecase "Update Backlog" as UC3
+  usecase "Delete Backlog" as UC4
+}
+
+admin -- UC1
+admin -- UC2
+admin -- UC3
+admin -- UC4
+@endum
